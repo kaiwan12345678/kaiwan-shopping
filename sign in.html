@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="./css/sign in.css">
+  <link rel="icon" href="./logo/shopping-basket.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="header" >
+    <div class="nav">
+        <div class="containar">
+            <div class="logo" style="display: flex">
+                <img src="./logo/1136140.png" width="30" alt="" style="margin-right:10px;">
+                <h1>Online Shopping</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="sign in.html">Sign In</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <div class="input">
+                <input class="inputt" type="search" placeholder="Search">
+                </div>
+            </div>  
+            </nav>
+        </div>
+    </div>
+</section><!--Nav-->
+<div class="wrapper" >
+    <div class="title">
+      Registration Form
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label>First Name</label>
+          <input type="text" class="input">
+       </div>  
+        <div class="inputfield">
+          <label>Last Name</label>
+          <input type="text" class="input">
+       </div>  
+       <div class="inputfield">
+          <label>Password</label>
+          <input type="password" class="input">
+       </div>  
+      <div class="inputfield">
+          <label>Confirm Password</label>
+          <input type="password" class="input">
+       </div> 
+        <div class="inputfield">
+          <label>Gender</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+       </div> 
+        <div class="inputfield">
+          <label>Email Address</label>
+          <input type="text" class="input">
+       </div> 
+      <div class="inputfield">
+          <label>Phone Number</label>
+          <input type="text" class="input">
+       </div> 
+      <div class="inputfield">
+          <label>Address</label>
+          <textarea class="textarea"></textarea>
+       </div> 
+      <div class="inputfield">
+          <label>Postal Code</label>
+          <input type="text" class="input">
+       </div> 
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Register" class="btn">
+      </div>
+    </div>
+</div>	
+	<!--------------------------------------->
+  <div class="footer">
+    <div class="footer-content">
+        <h3>Online Shopping</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisic Necessitatibus temporibus dio dolor dicta iusto vel? Voluptatem temporibus veniam aliquid sed</p>
+        <ul class="social">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="sign in.html">Sign In</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy;2021 Online Shopping. Designed By<span> Kaiwan</span> </p>
+    </div>
+    </div>
+</body>
+</html>
+
+
+<script type="text/javascript">
+	
+  document.querySelector('div').addEventListener('contextmenu',disableRightClick);
+document.querySelector('img').addEventListener('contextmenu', disableRightClick);
+document.addEventListener('contextmenu', disableRightClick);
+
+function disableRightClick(e) {
+  e.preventDefault();
+}
+  </script>
